@@ -1,0 +1,32 @@
+<!-- I added all the CSS styles through Bootstrap library, wanted to have a bit of practice -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <title>Dog Photos</title>
+  </head>
+  <body>
+    <div class="container mb-5">
+      <div class="listWrapper row">
+        <ul class="imageList card list-unstyled"></ul>
+      </div>
+
+      <div class="row buttonsWrapper">
+        <div class="fixed-bottom d-inline-flex gap-2 col-md-6 mx-auto mb-4">
+          <button type="button" class="col-md-6 mx-auto btn btn-primary btn-lg" id="myButtonStart">Start</button>
+
+          <button type="button" class="col-md-6 mx-auto btn btn-light btn-lg" id="myButtonNext">Next</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
